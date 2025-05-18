@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Portfolio</title>
+    <link rel="stylesheet" href="\portfolio\styles.css">
+    <script src="https://kit.fontawesome.com/76016925ff.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                <img src="portfolio/pictures/1739243953835 - Copy.jpg" height="50" width="150">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/portfolio/about.html">About</a></li>
+                    <li><a href="/portfolio/services.html">Services</a></li>
+                    <li><a href="/portfolio/projects.html">Projects</a></li>
+                    <li><a href="/portfolio/contact.html">Contact</a></li>
+                    <li><a href="paper.html">Research Papers</a></li>
+                    <li><a href="/portfolio/admin.html">Admin</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p> Web Developer</p>
+                <h1> HI, I'm <span>Alan Austin</span><br> from Bangladesh</h1>
+            </div>
+        </div>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/portfolio/pictures/1739258390792.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle"> About me </h1>
+                        <p>Hi, I'm Alan Austin, a passionate Computer Science & Engineering (CSE) student with a strong drive for creativity and problem-solving. I specialize in web design and competitive coding, constantly exploring new technologies and sharpening my skills. Beyond the world of programming, I have a deep love for video and picture editing, photography, sketching, and playing the guitar. Whether it's crafting stunning visuals, designing sleek websites, or tackling complex coding challenges, I always aim for perfection.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                            <p class="tab-links"onclick="opentab('experiance')"> Experiance</p>
+                            <p class="tab-links"onclick="opentab('education')"> Education </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Skilled in designing and developing responsive websites using HTML, CSS, JavaScript, and modern frameworks.</li>
+                                <li><span>Competitive Programming:</span><br>Experienced in problem-solving, algorithm design, and data structures. Proficient in platforms like Codeforces, LeetCode, and AtCoder.</li>
+                                <li><span>C++ Development:</span><br>Strong foundation in C++, including STL, OOP, memory management, and optimization techniques.</li>
+                                <li><span>Creative Skills</span><br>Experienced in photography, videography, photo and video editing, sound mastering, and guitar playing.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experiance">
+                            <ul>
+                                <li><span>Experiance1</span><br>None</li>
+                                <li><span>Experiance2</span><br>None</li>
+                                <li><span>Experiance3</span><br>None</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Bachelor in CSE</span><br>University of Global Village</li>
+                                <li><span>Masters</span><br></li>
+                                <li><span> </span><br> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">Services I provide</h1>
+                <p> This are the services that I provide. Tap to learn more.</p>
+                <div class="services-list">
+                    <div class="service">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <a href="/portfolio/webdesign.html">Learn More</a>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-video"></i>
+                        <h2>Video Editing</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <a href="/portfolio/video.html">Learn More</a>
+                    </div>
+                    <div class="service">
+                        <i class="fa-solid fa-music"></i>
+                        <h2>Sound Mastering</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                        <a href="/portfolio/soundmas.html">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="projects">
+                    <div class="container">
+                        <h1 class="subtitle">My Projects</h1>
+                        <div class="projects-list">
+                            <div class="project">
+                                <img src="/portfolio/pictures/Screenshot 2025-02-07 201350.png" alt="Project 1">
+                                <h2>E-Commerce Website</h2>
+                                <p>Brief description of your project goes here.</p>
+                                <a href="#">View Details</a>
+                            </div>
+                            <div class="project">
+                                <img src="/portfolio/pictures/Screenshot 2025-02-11 195512.png" alt="Project 2">
+                                <h2>Class Cloud</h2>
+                                <p>Brief description of your project goes here.</p>
+                                <a href="#">View Details</a>
+                            </div>
+                            <div class="project">
+                                <img src="/portfolio/pictures/Screenshot 2025-02-11 195710.png" alt="Project 3">
+                                <h2>personal Portfolio</h2>
+                                <p>Brief description of your project goes here.</p>
+                                <a href="#">View Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="contact">
+                    <div class="container">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <div class="contact-form">
+                            <form>
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="Enter your name" required>
+                
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Enter your email" required>
+                
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+                
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                        
+                        <!-- Social Media Section -->
+<div class="social-media">
+    <p>OR contact me via:</p>
+    <div class="social-icons">
+        <a href="#" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" target="_blank">   
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" target="_blank">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+    </div>
+</div>
+<div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <a>Blog</a>
+</head>
+<body>
+    
+</body>
+</html>
+</div>
+
+    <footer>
+        <p>&copy; 2025 Alan Austin. All Rights Reserved.</p>
+    </footer>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for (let tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for (let tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link"); // Activate clicked tab
+    document.getElementById(tabname).classList.add("active-tab"); // Show related content
+}
+
+    </script>
+    <script src="/portfolio/script.js"></script>
+</body>
+</html>

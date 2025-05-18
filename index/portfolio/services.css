@@ -1,0 +1,111 @@
+/* General Body & Container Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfaf6;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #8b0000;
+}
+
+/* Header/Navbar */
+#header {
+    background-color: #8b0000;
+    padding: 15px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background 0.3s ease;
+    border-radius: 8px;
+}
+
+#navbar a:hover {
+    background-color: #a40000;
+}
+
+/* Service Info Box */
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.contact-form h2 {
+    color: #8b0000;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 24px;
+}
+
+.contact-form ul {
+    padding-left: 20px;
+    line-height: 1.7;
+}
+
+.contact-form ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact-form p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Button Styling */
+.contact-form button {
+    background: #8b0000;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+    background: #a40000;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+    .container {
+        padding: 40px 15px;
+    }
+
+    .subtitle {
+        font-size: 28px;
+    }
+
+    .contact-form h2 {
+        font-size: 20px;
+    }
+}
